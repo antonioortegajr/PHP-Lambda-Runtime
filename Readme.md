@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repo contains an implementation of PHP runtime layer with AWS Lambda.
+This repo contains an implementation of PHP runtime layer with AWS Lambda. Everything you need is already included.
 
 Files:
 1. `runtime/php` - Statically compiled PHP 7.2.11 on alinux 2017.03
