@@ -27,7 +27,7 @@ To use this runtime:
 2. Click on Layers in AWS "Lambda Designer" area to reveal layer options calick "Add Layer"
 6. Paste in the ARN from the above step as the source of the layer and save
 7. Define the handler in lambda function as `function.handler` in the "Function Code" area
-8. Copy code from `function.php` into lambda funtion ✏️
+8. Copy code from `function.php` into the lambda funtion created above ✏️
 
 You will see "hello" returned upon testing.
 
