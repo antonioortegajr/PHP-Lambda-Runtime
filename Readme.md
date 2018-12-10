@@ -18,10 +18,13 @@ This runtime expects the function handler in AWS Lambda configuration in the for
 # Configuration
 
 To use this runtime:
-1. Zip the files bootstrap, static PHP binary and runtime.php in the runtime folder of this repo
-2. Create a layer in AWS and upload the zip file created in above step
+1. Download or clone this repo
+2. Zip the files bootstrap, static PHP binary and runtime.php in the runtime folder of this repo
+3. Create a layer in AWS and upload the zip file created in above step
 3. Take not of the ARN generated in the layer
-3. Create a Lambda function from scratch. Select custom runtime.
-4. Click con layers and paste in the ARN from the above step
-5. Define the handler in lambda function `function.handler`
-6. Create a file `function.php` with a function called `handler($eventData)`, this function will be called when lambda is invoked.
+5. Create a Lambda function from scratch. Select custom runtime.
+6. Click con layers and paste in the ARN from the above step
+7. Define the handler in lambda function `function.handler`
+8. Create a file `function.php` with a function called `handler($eventData)`, this function will be called when lambda is invoked.
+
+You will see "hello" returned upon testing.
