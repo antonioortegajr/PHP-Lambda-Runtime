@@ -19,7 +19,7 @@ This runtime expects the function handler in AWS Lambda configuration in the for
 
 To use this runtime:
 1. Download or clone this repo ⬇️
-2. log in to AWS and go to the Lambda service area
+2. Log in to AWS and go to the Lambda service area
 3. Click on Layers and "Create Layer"
 4. Name the layer and upload the zip file created in above step ⬆️
 3. Take a note of the ARN generated in the layer 📝
